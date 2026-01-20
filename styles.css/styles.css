@@ -242,7 +242,75 @@ padding: 20px;
     
     gap: 20px;
     /* border: 1px solid red; */
+    padding-left: 155px;
+    padding-right: 30px;
+    padding-top: 15px;
 
+}
+.card-1{
+    width: 300px;
+    background-color: rgba(0, 0, 255, 0.267);
+    border-radius: 1%;
+    border: 1px solid rgba(137, 43, 226, 0.548);
+    margin-bottom: 10px;
+
+}
+.card-2{
+    width: 300px;
+    background-color: rgba(0, 0, 255, 0.267);
+    border-radius: 1%;
+    border: 1px solid rgba(137, 43, 226, 0.548);
+     margin-bottom: 10px;
+
+
+}
+.card-3{
+    width: 300px;
+    background-color: rgba(0, 0, 255, 0.267);
+    border-radius: 1%;
+    border: 1px solid rgba(137, 43, 226, 0.548);
+     margin-bottom: 10px;
+
+
+}
+.card-1 iframe h2 p {
+    width: 120px;
+    height: 180px;
+    background-color: blue;
+
+}
+.card-2 iframe h2 p {
+    width: 120px;
+    height: 200px;
+    gap: 20px;
+}
+.card-3 iframe h2 p{
+    width: 120px;
+    height: 180px;
+}
+footer{
+    background-image: url("../assets/footer-bg.png");
+    background-position: 100%;
     
+
+}
+.footer-div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.social-media{
+    padding-left: 150px;
     
+}
+.social-media .paragraph img{
+    display: flex;
+}
+.footer-div .bigsizefont {
+    padding-left: 600px;
+}
+.footer-div .paragraph{
+    padding-left: 460px;
+    border-top: 1px solid rgb(95, 85, 104);
 }
