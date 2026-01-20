@@ -31,7 +31,7 @@ font-style: Extra bold;
 font-size: 25px;
 font-weight: 800;
 /* line-height: 73px; */
-letter-spacing: 0%;
+
     }
 
     /* card common */
@@ -61,6 +61,9 @@ letter-spacing: 0%;
     justify-content: space-between;
     color: white;
 
+}
+.bar{
+    display: block;
 }
 .navbar>h2{
     color: white;
@@ -180,16 +183,15 @@ main>section{
     padding-left: 500px;
     padding-top: 30px;
 }
-.box-container{
-    max-width: 80%;
-    margin: 50px auto;
-    min-height: 300px;
-    /* border: 1px solid red; */
-    display: grid;
-    grid-template-rows: repeat(3,1fr);
-    grid-template-columns: repeat(3,1fr);
-    gap: 10px;
+.navbar{
+    border: 1px solid blue;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: white;
+
 }
+ 
 .box-1{
     grid-row: 1/span 2;
     padding: 5px;
@@ -291,6 +293,7 @@ padding: 20px;
 footer{
     background-image: url("../assets/footer-bg.png");
     background-position: 100%;
+    background-size: cover;
     
 
 }
@@ -313,4 +316,35 @@ footer{
 .footer-div .paragraph{
     padding-left: 460px;
     border-top: 1px solid rgb(95, 85, 104);
+    display: flex;
+}
+
+
+
+
+
+
+@media screen and (max-width:576px){
+    .navbar{
+   
+    flex-direction: column;
+
+}
+.nav-ul{
+    display: none;
+}
+.navbar .btn{
+    display: none;
+}
+.bar{
+    
+}
+
+.card-container{
+    flex-direction: column;
+}
+.header{
+    max-width:fit-content;
+}
+
 }
